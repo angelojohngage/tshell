@@ -25,12 +25,11 @@ header {
   margin: 1rem auto;
 }
 
-.top-container {
+.header-container {
   display: flex;
   align-items: flex-end;
   flex-direction: column;
   height: 31rem;
-  width: 960px;
   margin: 0 auto;
 }
 
@@ -62,11 +61,13 @@ header {
   align-items: center;
   height: 5rem;
   margin-top: 10rem;
+  margin-right: 10rem;
   padding: 0rem 5rem;
   background-color: white;
 }
 
 .motto span {
+  display: flex;
   font-size: 2rem;
   font-weight: bold;
   line-height: 1.2;
