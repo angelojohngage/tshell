@@ -6,6 +6,9 @@ html {
 body {
   margin: 0 auto;
   font-family: Helvetica;
+}
+
+.hero {
   background-image: url(images/glasses-bg.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -15,20 +18,19 @@ body {
 header {
   background-color: cadetblue;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   width: 960px;
   z-index: 5;
-  margin: 1rem auto;
   padding: 1rem 0;
+  margin: 1rem auto;
 }
 
 .top-container {
   display: flex;
-  align-items: center;
-  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
   height: 31rem;
-  width: 100%;
+  width: 960px;
   margin: 0 auto;
 }
 
@@ -42,7 +44,6 @@ header {
 .logo img {
   margin-right: 1rem;
   height: 1.5rem;
-
 }
 
 .nav {
@@ -58,15 +59,41 @@ header {
 
 .motto {
   display: flex;
+  align-items: center;
   height: 5rem;
-  padding: 1.5rem 5rem;
-  margin-right: 5rem;
+  margin-top: 10rem;
+  padding: 0rem 5rem;
   background-color: white;
 }
 
 .motto span {
-  margin: 1.5rem 0rem;
   font-size: 2rem;
   font-weight: bold;
   line-height: 1.2;
+}
+
+.mid-container {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  width: 960px;
+  margin: 0 auto;
+}
+
+.icons {
+  margin: 3rem auto;
+  display: inline-flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.icon {
+  width: 5rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.icon img {
+  width: 3.5rem;
 }
